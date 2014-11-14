@@ -1,0 +1,26 @@
+<div align="center">
+<h1>Your Fellow Students</h1>
+  <h3> Anonymous, Unmoderated, Uncensored. </h3>
+
+<%= link_to 'Post a Comment', new_article_path, {:class=>"button"} %>
+
+
+
+<p></p>
+ <div class="CSSTableGenerator" >
+<table>
+  <tr>
+    <td>Comments</td>
+  </tr>
+ 
+  <% @articles.each do |article| %>
+    <tr>
+      <td><%= article.text %></td>
+    </tr>
+  <% end %>
+</table>
+</div>
+<p></p>
+<%= link_to 'Post a Comment', new_article_path, {:class=>"button"} %>
+
+</div>
