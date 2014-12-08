@@ -1,12 +1,15 @@
+...
+
 <div align="center">
 <h1>Your Fellow Students</h1>
   <h3> Anonymous, Unmoderated, Uncensored. </h3>
+<p></p>
 
-<%= link_to 'Post a Comment', new_article_path, {:class=>"button"} %>
-
-
+<h2> Thank you for participating.</h2>
+<h3> To be continued...?</h3>
 
 <p></p>
+
  <div class="CSSTableGenerator" >
 <table>
   <tr>
@@ -20,7 +23,5 @@
   <% end %>
 </table>
 </div>
-<p></p>
-<%= link_to 'Post a Comment', new_article_path, {:class=>"button"} %>
 
 </div>
